@@ -25,6 +25,7 @@ before_install:
   - sudo mkdir -p /builds
   - sudo chmod a+rw /builds
 install:
+  - travis_wait travis_retry pip install -r requirements.txt --upgrade
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
   - sudo apt-get install -y libqt4-dev
@@ -47,6 +48,5 @@ install:
   - popd
   # Builds Complete
   - popd
-  - travis_wait travis_retry pip install -r requirements.txt --upgrade
 script: 
   - python setup.py mosaic_tests
