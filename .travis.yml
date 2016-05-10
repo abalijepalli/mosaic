@@ -33,14 +33,14 @@ install:
   - pushd /builds
   # SIP
   - tar xzf /downloads/sip.tar.gz --keep-newer-files
-  - pushd sip-4.16.5
+  - pushd sip-4.18
   - python configure.py
   - make
   - sudo make install
   - popd
   # PyQt4
   - tar xzf /downloads/pyqt4.tar.gz --keep-newer-files
-  - pushd PyQt-x11-gpl-4.11.3
+  - pushd PyQt-x11-gpl-4.11.4
   - python configure.py -c --confirm-license --no-designer-plugin -e QtCore -e QtGui -e QtTest
   - make
   - sudo make install
