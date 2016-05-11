@@ -11,8 +11,7 @@ addons:
     - libblas-dev
     - liblapack-dev
     - gfortran
-    - libpgm-5.1-0
-    - libzmq3
+    - libzmq3-dev
     - python-zmq
 cache:
   - apt
