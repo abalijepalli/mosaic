@@ -140,11 +140,11 @@ class EventPartitionSingle_TestSuite(EventPartitionTest):
 			basename='testdata/testEventPartition'+str(i)
 			yield self.runTestCase, basename+'.csv', basename+'.prm', es.eventSegment, False
 
-class EventPartitionParallel_TestSuite(EventPartitionTest):
-	def test_eventPartition(self):
-		for i in range(1,6):
-			basename='testdata/testEventPartition'+str(i)
-			yield self.runTestCase, basename+'.csv', basename+'.prm', es.eventSegment, True
+#class EventPartitionParallel_TestSuite(EventPartitionTest):
+#	def test_eventPartition(self):
+#		for i in range(1,6):
+#			basename='testdata/testEventPartition'+str(i)
+#			yield self.runTestCase, basename+'.csv', basename+'.prm', es.eventSegment, True
 
 class ADEPT_TestSuite(BaseMultiStateTest):
 	def test_adept(self):
