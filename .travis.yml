@@ -20,7 +20,7 @@ cache:
     - $HOME/.cache/pip
 before_install:
   - pip install -U pip
-
+install:
   - if [[ $TRAVIS_OS_NAME -eq "linux" ]]; then
       sudo apt-get update;
     fi
