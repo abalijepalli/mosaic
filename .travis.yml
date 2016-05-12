@@ -49,9 +49,9 @@ install:
   - conda info -a
 
   - conda install cython pandas nose matplotlib numpy scipy pyzmq
-  - conda install -c dgursoy pywavelets=0.4.0
-  - conda install -c jjhelmus lmfit=0.7.4
-  - conda install -c ioos uncertainties=2.4.8
+  - conda install -c dgursoy pywavelets
+  - conda install -c jjhelmus lmfit
+  - conda install -c ioos uncertainties
 script: 
   - python setup.py mosaic_tests
 
