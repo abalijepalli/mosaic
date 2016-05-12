@@ -50,7 +50,7 @@ install:
 
   - conda install cython pandas nose matplotlib numpy scipy pyzmq
   - conda install -c dgursoy pywavelets
-  - conda install -c jjhelmus lmfit
+  - conda install -c tritemio lmfit
   - conda install -c ioos uncertainties
 script: 
   - python setup.py mosaic_tests
