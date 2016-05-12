@@ -23,7 +23,11 @@ before_install:
   
   - pushd $HOME/.cache
   - wget https://pypi.python.org/packages/c6/4a/75f188877264b6f9e8f2d68f213d2c7329bcb3a86be013fa11c1d256990e/lmfit-0.9.3.tar.gz
+  - wget https://pypi.python.org/packages/92/fb/0e05cfd6983f56bf9c0c119c159c997a5555ec7af2fa9718b7df39df60e8/uncertainties-2.4.8.1.tar.gz
+  - wget https://pypi.python.org/packages/32/fd/55705cae2cced82b4a017c77bb71d994d74c04dc76cbad9116459f151f19/PyWavelets-0.4.0.tar.gz
   - tar xzf lmfit-0.9.3.tar.gz
+  - tar xzf uncertainties-2.4.8.1
+  - tar xzf PyWavelets-0.4.0
   - popd
 
 install:
@@ -60,10 +64,17 @@ install:
   
   - pushd $HOME/.cache/lmfit-0.9.3/
   - python setup.py install
+  - pushd $HOME/.cache/uncertainties-2.4.8.1/
+  - python setup.py install
+  - pushd $HOME/.cache/PyWavelets-0.4.0
+  - python setup.py install
+  - popd
+  - popd
+  - popd
   
   # - conda install -c ioos pywavelets #=0.4.0
   #- conda install -c licode lmfit #=0.8.3
-  - conda install -c ioos uncertainties #=2.4.8
+  #- conda install -c ioos uncertainties #=2.4.8
 script: 
   - python setup.py mosaic_tests
 
