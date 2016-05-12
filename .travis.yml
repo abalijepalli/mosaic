@@ -10,9 +10,9 @@ notifications:
 addons:
   apt:
     packages:
-    # - libblas-dev
-    # - liblapack-dev
-    # - gfortran
+     - libblas-dev
+     - liblapack-dev
+     - gfortran
     # - libzmq3-dev
 cache:
   - apt
