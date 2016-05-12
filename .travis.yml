@@ -43,15 +43,14 @@ install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
-  - conda create -q -n mosaicENV python=$TRAVIS_PYTHON_VERSION
+  - conda create --yes -q -n mosaicENV python=$TRAVIS_PYTHON_VERSION cython=0.20.1 pandas=0.16.2 nose=1.3.4 matplotlib=1.4.3 numpy=1.9.0 scipy=0.16.0 pyzmq=15.2.0
+  - conda remove --features mkl
   - source activate mosaicENV
   # Useful for debugging any issues with conda
   - conda info -a
   
   - wget https://bootstrap.pypa.io/ez_setup.py -O - | python
 
-  - conda install cython=0.20.1 pandas=0.16.2 nose=1.3.4 matplotlib=1.4.3 numpy=1.9.0 scipy=0.16.0 pyzmq=15.2.0
-  - conda remove --features mkl
   - conda install -c ioos pywavelets=0.4.0
   - conda install -c licode lmfit=0.8.3
   - conda install -c ioos uncertainties=2.4.8
