@@ -5,6 +5,10 @@ python:
 notifications:
   email: 
     on_failure: always
+cache:
+  - apt
+  - directories:
+    - $HOME/.cache/pip
 addons:
   apt:
     packages:
@@ -17,10 +21,6 @@ addons:
     - python-qt4-dev 
     - pyqt4-dev-tools
     - python-qt4
-cache:
-  - apt
-  - directories:
-    - $HOME/.cache/pip
 before_install:
   - pip install -U pip
 
@@ -34,9 +34,11 @@ install:
   - travis_wait travis_retry pip install -r requirements.txt --upgrade
   - pip install pyzmq --upgrade
   - pushd $HOME/.cache/sip-4.18/
-  - python setup.py install
+  - python configure.py
+  - make install
   - pushd $HOME/.cache/PyQt-x11-gpl-4.11.4/
-  - python setup.py install
+  - python configure.py
+  - make install
   - popd
   - popd
 script: 
