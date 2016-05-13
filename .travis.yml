@@ -12,6 +12,7 @@ addons:
     - liblapack-dev
     - gfortran
     - libzmq3-dev
+    - python-qt4
 cache:
   - apt
   - directories:
