@@ -34,10 +34,8 @@ install:
   - travis_wait travis_retry pip install -r requirements.txt --upgrade
   - pip install pyzmq --upgrade
 
-  - ls $VIRTUAL_ENV
-  - ls $VIRTUAL_ENV/..
-  # - ln -s /usr/lib/python2.7/dist-packages/PyQt4/ $VIRTUAL_ENV/mosaicEnv/lib/python2.7/site-packages/
-  # - ln -s /usr/lib/python2.7/dist-packages/sip.so $VIRTUAL_ENV/mosaicEnv/lib/python2.7/site-packages/
+  - ln -s /usr/lib/python2.7/dist-packages/PyQt4/ $VIRTUAL_ENV/lib/python2.7/site-packages/
+  - ln -s /usr/lib/python2.7/dist-packages/sip.so $VIRTUAL_ENV/lib/python2.7/site-packages/
 
   # - pushd $HOME/.cache/sip-4.18/
   # - python configure.py
