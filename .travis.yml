@@ -12,6 +12,10 @@ addons:
     - liblapack-dev
     - gfortran
     - libzmq3-dev
+    - libqt4-dev
+    - qt4-dev-tools 
+    - python-qt4-dev 
+    - pyqt4-dev-tools
     - python-qt4
 cache:
   - apt
