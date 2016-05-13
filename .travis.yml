@@ -35,10 +35,12 @@ install:
   - pip install pyzmq --upgrade
   - pushd $HOME/.cache/sip-4.18/
   - python configure.py
-  - make install
+  - make
+  - sudo make install
   - pushd $HOME/.cache/PyQt-x11-gpl-4.11.4/
   - python configure.py
-  - make install
+  - make
+  - sudo make install
   - popd
   - popd
 script: 
