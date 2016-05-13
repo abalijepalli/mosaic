@@ -38,7 +38,7 @@ install:
   - make
   - sudo make install
   - pushd $HOME/.cache/PyQt-x11-gpl-4.11.4/
-  - python configure.py
+  - python configure.py --confirm-license
   - make
   - sudo make install
   - popd
