@@ -2,24 +2,26 @@ from setuptools import setup, Command
 import mosaic
 import os
 import sys
+import nose
 
 class mosaicUnitTests(Command):
     description = "run the MOSAIC unit test suite."
-    user_options = [
-                    ('testoutput', 't', "verbose test output"),
-                    ]
+    user_options = []
 
     def initialize_options(self):
-        self.testoutput=None
+        pass
 
     def finalize_options(self):
         pass
 
     def run(self):
-        if self.testoutput:
-            os.system('nosetests -v -w mosaic/utest/ mosaicTests.py')
-        else:
-            os.system('nosetests -w mosaic/utest/ mosaicTests.py')
+        try:
+            if self.verbose:
+                return nose.main(argv=['mosaic', '-v', '--where=mosaic/utest/'])
+            else:
+                return nose.main(argv=['mosaic', '--where=mosaic/utest/'])
+        except:
+            raise
 
 class mosaicBinaries(Command):
     description = "build MOSAIC binaries."
