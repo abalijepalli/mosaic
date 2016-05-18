@@ -23,7 +23,6 @@ class mosaicUnitTests(Command):
         except:
             raise
 
-
 class mosaicBinaries(Command):
     description = "build MOSAIC binaries."
     user_options = []
@@ -126,6 +125,8 @@ class mosaicDocs(Command):
 
 setup(
     cmdclass={
+        'test'              : mosaicUnitTests, 
+        'nosetests'         : mosaicUnitTests, 
         'mosaic_tests'      : mosaicUnitTests, 
         'mosaic_docs'       : mosaicDocs, 
         'mosaic_bin'        : mosaicBinaries, 
@@ -165,5 +166,4 @@ setup(
     license='LICENSE.txt',
     description='A Modular Single-Molecule Analysis Interface.',
     long_description=open('README.rst').read(),
-    # include_dirs=[numpy.get_include()],
 )
