@@ -1,5 +1,5 @@
 language: python
-# sudo: false
+sudo: false
 python:
   - "2.7"
 notifications:
@@ -23,29 +23,10 @@ addons:
     - python-qt4
 before_install:
   - pip install -U pip
-
-  # - pushd $HOME/.cache
-  # - wget http://tenet.dl.sourceforge.net/project/pyqt/sip/sip-4.18/sip-4.18.tar.gz
-  # - wget http://tenet.dl.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt-x11-gpl-4.11.4.tar.gz
-  # - tar xzf sip-4.18.tar.gz
-  # - tar xzf PyQt-x11-gpl-4.11.4.tar.gz
-  # - popd
 install:
   - travis_wait travis_retry pip install -r requirements.txt --upgrade
   - pip install pyzmq --upgrade
-
   - ln -s /usr/lib/python2.7/dist-packages/PyQt4/ $VIRTUAL_ENV/lib/python2.7/site-packages/
   - ln -s /usr/lib/python2.7/dist-packages/sip.so $VIRTUAL_ENV/lib/python2.7/site-packages/
-
-  # - pushd $HOME/.cache/sip-4.18/
-  # - python configure.py
-  # - make
-  # - sudo make install
-  # - pushd $HOME/.cache/PyQt-x11-gpl-4.11.4/
-  # - python configure.py --confirm-license
-  # - make
-  # - sudo make install
-  # - popd
-  # - popd
 script: 
-  - python setup.py mosaic_tests
+  - python setup.py test
