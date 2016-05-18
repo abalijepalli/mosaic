@@ -62,7 +62,8 @@ class ModuleImport_TestSuite(ModuleImportTest):
 		'mosaicgui.csvexportview.csvexportview',
 		'mosaicgui.fiteventsview.fiteventsview',
 		'mosaicgui.statisticsview.statisticsview',
-		'mosaicgui.trajview.trajview'
+		'mosaicgui.trajview.trajview',
+		'mosaigui.fileview.fileview'
 		]
 
 		for module in moduleList:
