@@ -23,6 +23,7 @@ class mosaicUnitTests(Command):
         except:
             raise
 
+
 class mosaicBinaries(Command):
     description = "build MOSAIC binaries."
     user_options = []
