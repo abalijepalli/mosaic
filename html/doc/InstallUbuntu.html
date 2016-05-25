@@ -5,18 +5,18 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Install MOSAIC on Ubuntu(14.04) &mdash; MOSAIC 1.3 documentation</title>
+    <title>Install MOSAIC on Ubuntu(14.04) &mdash; MOSAIC 1.3b2 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/bootswatch-3.2.0/paper/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/paper/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/style.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     '1.3',
+        VERSION:     '1.3b2',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -28,10 +28,10 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="top" title="MOSAIC 1.3 documentation" href="../index.html" />
+    <link rel="top" title="MOSAIC 1.3b2 documentation" href="../index.html" />
 
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -58,7 +58,7 @@
         </button>
         <a class="navbar-brand" href="../index.html"><img src="../_static/icon_36.png">
            </a>
-        <span class="navbar-text navbar-version pull-left"><b>1.3</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>1.3b2</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -80,18 +80,19 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul>
 <li class="toctree-l1"><a class="reference internal" href="Introduction.html">1. Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">2. Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Algorithms.html">3. Data Processing Algorithms in <em>MOSAIC</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Algorithms.html">2. Data Processing Algorithms in <em>MOSAIC</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">3. Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GraphicalInterface.html">4. <em>MOSAIC</em> GUI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ScriptingandAdvancedFeatures.html">5. Scripting and Advanced Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="settingsFile.html">6. Settings File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DatabaseStructure.html">7. Database Structure and Query Syntax</a></li>
+<li class="toctree-l1"><a class="reference internal" href="settingsFile.html">5. Settings File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DatabaseStructure.html">6. Database Structure and Query Syntax</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ScriptingandAdvancedFeatures.html">7. Scripting and Advanced Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Extend.html">8. Extend <em>MOSAIC</em></a></li>
-<li class="toctree-l1"><a class="reference internal" href="Addons.html">9. Addons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">10. Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="apidocs.html">11. API Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ChangeLog.html">12. Change Log</a></li>
-<li class="toctree-l1"><a class="reference internal" href="References.html">13. Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PublicationFigures.html">9. Publication Quality Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AdvancedAnalysis.html">10. Advanced Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Addons.html">11. Addons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidocs.html">12. API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ChangeLog.html">13. Change Log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">14. Bibliography</a></li>
 </ul>
 </ul>
 </li>
@@ -121,7 +122,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 content">
       
   <div class="section" id="install-projname-on-ubuntu-14-04">
 <h1>Install <em>MOSAIC</em> on Ubuntu(14.04)<a class="headerlink" href="#install-projname-on-ubuntu-14-04" title="Permalink to this headline">¶</a></h1>
@@ -204,21 +205,15 @@
 <p class="last">You will notice that (<em>MOSAIC</em>) now appears in front of the $ prompt in your shell. This inidicates that the virtual environment is active. We have employed this notation to indicate commands that should be run from inside the virtual environment.</p>
 </div>
 <ol class="arabic simple" start="6">
-<li><em>MOSAIC</em> and its dependencies are built using setuptools via a custom command as described below. However, we  must first install Cython manually. Run the following command:</li>
-</ol>
-<div class="highlight-console"><div class="highlight"><pre><span class="gp">(MOSAIC)$</span> pip install cython
-</pre></div>
-</div>
-<ol class="arabic simple" start="7">
-<li>To install the needed dependencies, navigate to ~/projects/MOSAIC/ and run the following:</li>
+<li><em>MOSAIC</em> and its dependencies are built using setuptools. Navigate to ~/projects/MOSAIC/ and run the following:</li>
 </ol>
 <div class="highlight-console"><div class="highlight"><pre><span class="gp">(MOSAIC)$</span> python setup.py mosaic_deps
 </pre></div>
 </div>
-<ol class="arabic simple" start="8">
+<ol class="arabic simple" start="7">
 <li>Finally, add the installation directory (~/projects/MOSAIC as set up previously) to your <cite>PYTHONPATH</cite> as shown below. This addition can be made permanent by adding the line below to your <cite>.bash_profile</cite> (OS X) or <cite>.bashrc</cite> (Ubuntu) script.</li>
 </ol>
-<div class="highlight-console"><div class="highlight"><pre><span class="gp">(MOSAIC)$</span> <span class="nb">export </span><span class="nv">PYTHONPATH</span><span class="o">=</span><span class="nv">$PYTHONPATH</span>:~/projects/MOSAIC
+<div class="highlight-console"><div class="highlight"><pre><span class="gp">(MOSAIC)$</span> <span class="nb">export</span> <span class="nv">PYTHONPATH</span><span class="o">=</span>$PYTHONPATH:~/projects/MOSAIC
 </pre></div>
 </div>
 </div>
@@ -236,23 +231,21 @@
       
     </p>
     <p>
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.3.1.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
     </p>
   </div>
 </footer> -->
 <div class="footer" style="vertical-align: center" align="center">
-		<table width="75%" style="vertical-align: center; border-collapse: collapse;">
-			<tr style="padding-bottom: 100px;">
-				<td align="center">
-					<a href="Developers.html" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">MOSAIC Developers</a>
-					<a href="http://www.nist.gov/cgi-bin/wwwph/cso.nist.gov?Query=Arvind+Balijepalli" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">Contact</a>
-					<a href="Disclaimer.html" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">Terms of Use</a>
+		<table width="95%" style="vertical-align: center">
+			<col width=60%>
+			<col width=40%>
+			<tr>
+				<td align="left">
+					<a href="Developers.html"><em>MOSAIC Developers</em></a>&nbsp;&nbsp;&nbsp;
+					<a href="http://www.nist.gov/pml/div683/grp06/abalijepalli.cfm"><em>Contact</em></a>&nbsp;&nbsp;&nbsp;
+					<a href="Disclaimer.html"><em>Terms of Use</em></a>
 				</td>
-			</tr>
-			<tr style="padding-bottom: 100px;">
-				<td align="center">
-					<a href="http://www.nist.gov/"style="color: #696969; text-decoration: none;"><small>National Institute of Standards and Technology</small></a>
-				</td>
+				<td align="right"><em>National Institute of Standards and Technology (NIST)</em></td>
 			</tr>
 		</table>
 </div>

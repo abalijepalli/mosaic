@@ -1,0 +1,119 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Data Processing Algorithms in \emph {MOSAIC}}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}ADEPT 2-State}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Algorithm Settings}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Metadata Output}{4}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}ADEPT}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Algorithm Settings}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Metadata Output}{6}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}CUSUM+}{6}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Metadata Output}{6}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Getting Started}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Binary Installation}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Source Installation}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Install \emph {MOSAIC} on Mac OS X}{9}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Install \emph {MOSAIC} on Ubuntu(14.04)}{11}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}\emph {MOSAIC} GUI}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interface Overview}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}Panels A \& B: Analysis Setup and Trajectory Viewer}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Panel A: Analysis Setup}{16}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Panel B: Trajectory Viewer}{18}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Panels C,D, \& E: Blockade Depth Histogram, Statistics, and Event Viewer}{18}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Panel C: Blockade Depth Histogram}{18}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Panel D: Statistics}{19}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Panel E: Event Viewer}{20}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Console Log}{20}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Advanced Settings}{20}{subsection.4.3.5}
+\contentsline {chapter}{\numberline {5}Settings File}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Settings Layout}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Trajectory Settings}{24}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Common Settings (\texttt {metaTrajIO})}{24}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}QDF Files (\texttt {qdfTrajIO})}{25}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}ABF Files (\texttt {abfTrajIO})}{25}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Binary Files (\texttt {binTrajIO})}{25}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Optimizing Settings}{27}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Initial Event Detection (\texttt {eventSegment})}{27}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Two-State Identification (\texttt {adept2State})}{28}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Multi-State Identification (\texttt {adept})}{28}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Default Settings}{28}{section.5.4}
+\contentsline {chapter}{\numberline {6}Database Structure and Query Syntax}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Metadata Table}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Analysis Settings Table}{33}{section.6.2}
+\contentsline {section}{\numberline {6.3}Work with SQLite}{33}{section.6.3}
+\contentsline {section}{\numberline {6.4}Export to CSV}{34}{section.6.4}
+\contentsline {chapter}{\numberline {7}Scripting and Advanced Features}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Import Data and Run an Analysis}{37}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Filter Data}{39}{subsection.7.1.1}
+\contentsline {section}{\numberline {7.2}Advanced Scripting}{40}{section.7.2}
+\contentsline {chapter}{\numberline {8}Extend \emph {MOSAIC}}{43}{chapter.8}
+\contentsline {section}{\numberline {8.1}Read Arbitrary Binary Data Files}{43}{section.8.1}
+\contentsline {section}{\numberline {8.2}Define Top-Level Functionality}{44}{section.8.2}
+\contentsline {chapter}{\numberline {9}Publication Quality Figures}{47}{chapter.9}
+\contentsline {section}{\numberline {9.1}Timeseries Plots}{47}{section.9.1}
+\contentsline {section}{\numberline {9.2}Histogram Plots}{50}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Basic Histogram Plots}{50}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Custom Styles}{52}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Advanced Analysis and Plot Overlays}{55}{subsection.9.2.3}
+\contentsline {section}{\numberline {9.3}Contour Plots}{56}{section.9.3}
+\contentsline {chapter}{\numberline {10}Advanced Analysis}{61}{chapter.10}
+\contentsline {section}{\numberline {10.1}Capture Rate}{61}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Wrapper Function to Estimate the Capture Rate}{61}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Capture Rate Details}{62}{subsection.10.1.2}
+\contentsline {chapter}{\numberline {11}Addons}{65}{chapter.11}
+\contentsline {section}{\numberline {11.1}Mathematica}{65}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Installation}{65}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}MosaicUtils}{65}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}MosaicAnalysis}{67}{subsection.11.1.3}
+\contentsline {section}{\numberline {11.2}Matlab}{69}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}mksqlite Documentation}{70}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Installing mksqlite in Ubuntu 14.04 LTS}{70}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Installing mksqlite in Windows 7}{70}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Opening, Querying, and Closing the MOSAIC Output Database}{70}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Example}{71}{subsection.11.2.5}
+\contentsline {section}{\numberline {11.3}IGOR}{71}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}Activating SQL Database Access in IGOR}{71}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Simple Database Query in IGOR}{72}{subsection.11.3.2}
+\contentsline {chapter}{\numberline {12}API Documentation}{73}{chapter.12}
+\contentsline {section}{\numberline {12.1}\emph {MOSAIC} Modules}{73}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Top-Level Interfaces}{73}{subsection.12.1.1}
+\contentsline {subsubsection}{mosaic.SingleChannelAnalysis module}{73}{subsubsection*.12}
+\contentsline {subsubsection}{mosaic.ConvertToCSV module}{74}{subsubsection*.16}
+\contentsline {subsection}{\numberline {12.1.2}Meta-Classes}{74}{subsection.12.1.2}
+\contentsline {subsubsection}{mosaic.metaEventPartition module}{75}{subsubsection*.21}
+\contentsline {subsubsection}{mosaic.metaEventProcessor module}{76}{subsubsection*.31}
+\contentsline {subsubsection}{mosaic.metaIOFilter module}{78}{subsubsection*.45}
+\contentsline {subsubsection}{mosaic.metaMDIO module}{79}{subsubsection*.52}
+\contentsline {subsubsection}{mosaic.metaTrajIO module}{82}{subsubsection*.68}
+\contentsline {subsection}{\numberline {12.1.3}Time-Series IO}{85}{subsection.12.1.3}
+\contentsline {subsubsection}{mosaic.abfTrajIO module}{85}{subsubsection*.82}
+\contentsline {subsubsection}{mosaic.qdfTrajIO module}{86}{subsubsection*.86}
+\contentsline {subsubsection}{mosaic.binTrajIO module}{87}{subsubsection*.90}
+\contentsline {subsubsection}{mosaic.tsvTrajIO module}{89}{subsubsection*.95}
+\contentsline {subsection}{\numberline {12.1.4}Time-Series Filters}{90}{subsection.12.1.4}
+\contentsline {subsubsection}{mosaic.waveletDenoiseFilter module}{90}{subsubsection*.99}
+\contentsline {subsubsection}{mosaic.besselLowpassFilter module}{91}{subsubsection*.104}
+\contentsline {subsubsection}{mosaic.convolutionFilter module}{92}{subsubsection*.109}
+\contentsline {subsection}{\numberline {12.1.5}Event Partition and Segment}{92}{subsection.12.1.5}
+\contentsline {subsubsection}{mosaic.eventSegment module}{92}{subsubsection*.114}
+\contentsline {subsection}{\numberline {12.1.6}Event Processing}{94}{subsection.12.1.6}
+\contentsline {subsubsection}{mosaic.adept2State module}{94}{subsubsection*.119}
+\contentsline {subsubsection}{mosaic.adept module}{95}{subsubsection*.125}
+\contentsline {subsubsection}{mosaic.cusumPlus module}{96}{subsubsection*.130}
+\contentsline {subsection}{\numberline {12.1.7}Data Output}{98}{subsection.12.1.7}
+\contentsline {subsubsection}{mosaic.sqlite3MDIO module}{98}{subsubsection*.136}
+\contentsline {subsection}{\numberline {12.1.8}Miscellaneous}{98}{subsection.12.1.8}
+\contentsline {subsubsection}{mosaic.settings module}{98}{subsubsection*.141}
+\contentsline {subsubsection}{mosaic.utilities.ionic\_current\_stats module}{99}{subsubsection*.144}
+\contentsline {subsubsection}{mosaic.utilities.util module}{100}{subsubsection*.147}
+\contentsline {subsubsection}{mosaic.utilities.mosaicLog module}{100}{subsubsection*.157}
+\contentsline {subsubsection}{mosaic.utilities.mosaicTiming module}{100}{subsubsection*.161}
+\contentsline {subsubsection}{mosaic.utilities.fit\_funcs module}{101}{subsubsection*.169}
+\contentsline {subsection}{\numberline {12.1.9}MOSAIC Script Repository}{102}{subsection.12.1.9}
+\contentsline {subsubsection}{mosaicscripts.plots.timeseries module}{102}{subsubsection*.171}
+\contentsline {subsubsection}{mosaicscripts.plots.histogram module}{102}{subsubsection*.173}
+\contentsline {subsubsection}{mosaicscripts.plots.contour module}{103}{subsubsection*.175}
+\contentsline {chapter}{\numberline {13}Change Log}{105}{chapter.13}
+\contentsline {chapter}{Bibliography}{109}{chapter*.178}
+\contentsline {chapter}{Python Module Index}{111}{section*.188}
+\contentsline {chapter}{Index}{113}{section*.189}

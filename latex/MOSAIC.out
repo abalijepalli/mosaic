@@ -1,0 +1,44 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Data Processing Algorithms in MOSAIC}{}% 2
+\BOOKMARK [1][-]{section.2.1}{ADEPT 2-State}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{ADEPT}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{CUSUM+}{chapter.2}% 5
+\BOOKMARK [0][-]{chapter.3}{Getting Started}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Binary Installation}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Source Installation}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.4}{MOSAIC GUI}{}% 9
+\BOOKMARK [1][-]{section.4.1}{Interface Overview}{chapter.4}% 10
+\BOOKMARK [1][-]{section.4.2}{Panels A \046 B: Analysis Setup and Trajectory Viewer}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.3}{Panels C,D, \046 E: Blockade Depth Histogram, Statistics, and Event Viewer}{chapter.4}% 12
+\BOOKMARK [0][-]{chapter.5}{Settings File}{}% 13
+\BOOKMARK [1][-]{section.5.1}{Settings Layout}{chapter.5}% 14
+\BOOKMARK [1][-]{section.5.2}{Trajectory Settings}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.3}{Optimizing Settings}{chapter.5}% 16
+\BOOKMARK [1][-]{section.5.4}{Default Settings}{chapter.5}% 17
+\BOOKMARK [0][-]{chapter.6}{Database Structure and Query Syntax}{}% 18
+\BOOKMARK [1][-]{section.6.1}{Metadata Table}{chapter.6}% 19
+\BOOKMARK [1][-]{section.6.2}{Analysis Settings Table}{chapter.6}% 20
+\BOOKMARK [1][-]{section.6.3}{Work with SQLite}{chapter.6}% 21
+\BOOKMARK [1][-]{section.6.4}{Export to CSV}{chapter.6}% 22
+\BOOKMARK [0][-]{chapter.7}{Scripting and Advanced Features}{}% 23
+\BOOKMARK [1][-]{section.7.1}{Import Data and Run an Analysis}{chapter.7}% 24
+\BOOKMARK [1][-]{section.7.2}{Advanced Scripting}{chapter.7}% 25
+\BOOKMARK [0][-]{chapter.8}{Extend MOSAIC}{}% 26
+\BOOKMARK [1][-]{section.8.1}{Read Arbitrary Binary Data Files}{chapter.8}% 27
+\BOOKMARK [1][-]{section.8.2}{Define Top-Level Functionality}{chapter.8}% 28
+\BOOKMARK [0][-]{chapter.9}{Publication Quality Figures}{}% 29
+\BOOKMARK [1][-]{section.9.1}{Timeseries Plots}{chapter.9}% 30
+\BOOKMARK [1][-]{section.9.2}{Histogram Plots}{chapter.9}% 31
+\BOOKMARK [1][-]{section.9.3}{Contour Plots}{chapter.9}% 32
+\BOOKMARK [0][-]{chapter.10}{Advanced Analysis}{}% 33
+\BOOKMARK [1][-]{section.10.1}{Capture Rate}{chapter.10}% 34
+\BOOKMARK [0][-]{chapter.11}{Addons}{}% 35
+\BOOKMARK [1][-]{section.11.1}{Mathematica}{chapter.11}% 36
+\BOOKMARK [1][-]{section.11.2}{Matlab}{chapter.11}% 37
+\BOOKMARK [1][-]{section.11.3}{IGOR}{chapter.11}% 38
+\BOOKMARK [0][-]{chapter.12}{API Documentation}{}% 39
+\BOOKMARK [1][-]{section.12.1}{MOSAIC Modules}{chapter.12}% 40
+\BOOKMARK [0][-]{chapter.13}{Change Log}{}% 41
+\BOOKMARK [0][-]{chapter*.178}{Bibliography}{}% 42
+\BOOKMARK [0][-]{section*.188}{Python Module Index}{}% 43
+\BOOKMARK [0][-]{section*.189}{Index}{}% 44

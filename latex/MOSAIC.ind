@@ -1,0 +1,205 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter {Symbols}
+  \item \_colnames() (mosaic.metaMDIO.metaMDIO method), \hyperpage{79}
+  \item \_creategenerator() (mosaic.ConvertToCSV.ConvertToCSV method), \hyperpage{74}
+  \item \_eventsegment() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{75}
+  \item \_filename() (mosaic.ConvertToCSV.ConvertToCSV method), \hyperpage{74}
+  \item \_formatsettings() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{82}
+  \item \_init() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{75}
+  \item \_init() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{77}
+  \item \_init() (mosaic.metaIOFilter.metaIOFilter method), \hyperpage{78}
+  \item \_init() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{82}
+  \item \_initdb() (mosaic.metaMDIO.metaMDIO method), \hyperpage{79}
+  \item \_mdHeadingDataType() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{77}
+  \item \_mdHeadings() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{77}
+  \item \_mdList() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{77}
+  \item \_metaEventProcessor\_\_mdformat() (mosaic.metaEventProcessor.metaEventProcessor method), 
+		\hyperpage{77}
+  \item \_opendb() (mosaic.metaMDIO.metaMDIO method), \hyperpage{79}
+  \item \_processEvent() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{77}
+  \item \_stop() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{75}
+
+  \indexspace
+  \bigletter A
+  \item abfTrajIO (class in mosaic.abfTrajIO), \hyperpage{85}
+  \item addLogHeader() (mosaic.utilities.mosaicLog.mosaicLog method), \hyperpage{100}
+  \item addLogText() (mosaic.utilities.mosaicLog.mosaicLog method), \hyperpage{100}
+  \item adept (class in mosaic.adept), \hyperpage{96}
+  \item adept2State (class in mosaic.adept2State), \hyperpage{94}
+  \item avg() (in module mosaic.utilities.util), \hyperpage{100}
+
+  \indexspace
+  \bigletter B
+  \item besselLowpassFilter (class in mosaic.besselLowpassFilter), \hyperpage{91}
+  \item binTrajIO (class in mosaic.binTrajIO), \hyperpage{87}
+
+  \indexspace
+  \bigletter C
+  \item closeDB() (mosaic.metaMDIO.metaMDIO method), \hyperpage{79}
+  \item commonest() (in module mosaic.utilities.util), \hyperpage{100}
+  \item contour\_plot() (in module mosaicscripts.plots.contour), \hyperpage{104}
+  \item Convert() (mosaic.ConvertToCSV.ConvertToCSV method), \hyperpage{74}
+  \item ConvertToCSV (class in mosaic.ConvertToCSV), \hyperpage{74}
+  \item convolutionFilter (class in mosaic.convolutionFilter), \hyperpage{92}
+  \item cusumPlus (class in mosaic.cusumPlus), \hyperpage{97}
+
+  \indexspace
+  \bigletter D
+  \item data\_record (class in mosaic.sqlite3MDIO), \hyperpage{98}
+  \item DataLengthSec (mosaic.metaTrajIO.metaTrajIO attribute), \hyperpage{83}
+  \item datblock (class in mosaic.adept2State), \hyperpage{95}
+  \item datblock (class in mosaic.cusumPlus), \hyperpage{98}
+  \item decimate() (in module mosaic.utilities.util), \hyperpage{100}
+
+  \indexspace
+  \bigletter E
+  \item ElapsedTimeSeconds (mosaic.metaTrajIO.metaTrajIO attribute), \hyperpage{83}
+  \item eventSegment (class in mosaic.eventSegment), \hyperpage{93}
+  \item exportToCSV() (mosaic.sqlite3MDIO.sqlite3MDIO method), \hyperpage{98}
+
+  \indexspace
+  \bigletter F
+  \item filter() (in module mosaic.utilities.util), \hyperpage{100}
+  \item filterData() (mosaic.besselLowpassFilter.besselLowpassFilter method), \hyperpage{91}
+  \item filterData() (mosaic.convolutionFilter.convolutionFilter method), \hyperpage{92}
+  \item filterData() (mosaic.metaIOFilter.metaIOFilter method), \hyperpage{78}
+  \item filterData() (mosaic.waveletDenoiseFilter.waveletDenoiseFilter method), \hyperpage{91}
+  \item filteredData (mosaic.metaIOFilter.metaIOFilter attribute), \hyperpage{79}
+  \item filterFs (mosaic.metaIOFilter.metaIOFilter attribute), \hyperpage{79}
+  \item flat2() (in module mosaic.utilities.util), \hyperpage{100}
+  \item formatoutputfiles() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{76}
+  \item formatsettings() (mosaic.adept.adept method), \hyperpage{96}
+  \item formatsettings() (mosaic.adept2State.adept2State method), \hyperpage{95}
+  \item formatsettings() (mosaic.besselLowpassFilter.besselLowpassFilter method), \hyperpage{91}
+  \item formatsettings() (mosaic.convolutionFilter.convolutionFilter method), \hyperpage{92}
+  \item formatsettings() (mosaic.cusumPlus.cusumPlus method), \hyperpage{97}
+  \item formatsettings() (mosaic.eventSegment.eventSegment method), \hyperpage{93}
+  \item formatsettings() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{76}
+  \item formatsettings() (mosaic.metaIOFilter.metaIOFilter method), \hyperpage{79}
+  \item formatsettings() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{83}
+  \item formatsettings() (mosaic.waveletDenoiseFilter.waveletDenoiseFilter method), \hyperpage{91}
+  \item formatstats() (mosaic.eventSegment.eventSegment method), \hyperpage{93}
+  \item formatstats() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{76}
+  \item FsHz (mosaic.metaTrajIO.metaTrajIO attribute), \hyperpage{83}
+  \item FunctionTiming() (mosaic.utilities.mosaicTiming.mosaicTiming method), \hyperpage{101}
+
+  \indexspace
+  \bigletter G
+  \item getSettings() (mosaic.settings.settings method), \hyperpage{99}
+
+  \indexspace
+  \bigletter H
+  \item histogram\_plot() (in module mosaicscripts.plots.histogram), \hyperpage{103}
+
+  \indexspace
+  \bigletter I
+  \item initDB() (mosaic.metaMDIO.metaMDIO method), \hyperpage{79}
+
+  \indexspace
+  \bigletter L
+  \item LastFileProcessed (mosaic.metaTrajIO.metaTrajIO attribute), \hyperpage{83}
+
+  \indexspace
+  \bigletter M
+  \item mdAveragePropertiesList() (mosaic.adept.adept method), \hyperpage{96}
+  \item mdAveragePropertiesList() (mosaic.adept2State.adept2State method), \hyperpage{95}
+  \item mdAveragePropertiesList() (mosaic.cusumPlus.cusumPlus method), \hyperpage{98}
+  \item mdAveragePropertiesList() (mosaic.metaEventProcessor.metaEventProcessor method), 
+		\hyperpage{77}
+  \item mdHeadingDataType() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{78}
+  \item mdHeadings() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{78}
+  \item metaEventPartition (class in mosaic.metaEventPartition), \hyperpage{75}
+  \item metaEventProcessor (class in mosaic.metaEventProcessor), \hyperpage{76}
+  \item metaIOFilter (class in mosaic.metaIOFilter), \hyperpage{78}
+  \item metaMDIO (class in mosaic.metaMDIO), \hyperpage{79}
+  \item metaTrajIO (class in mosaic.metaTrajIO), \hyperpage{82}
+  \item mosaic.abfTrajIO (module), \hyperpage{85}
+  \item mosaic.adept (module), \hyperpage{95}
+  \item mosaic.adept2State (module), \hyperpage{94}
+  \item mosaic.besselLowpassFilter (module), \hyperpage{91}
+  \item mosaic.binTrajIO (module), \hyperpage{87}
+  \item mosaic.ConvertToCSV (module), \hyperpage{74}
+  \item mosaic.convolutionFilter (module), \hyperpage{92}
+  \item mosaic.cusumPlus (module), \hyperpage{96}
+  \item mosaic.eventSegment (module), \hyperpage{92}
+  \item mosaic.qdfTrajIO (module), \hyperpage{86}
+  \item mosaic.settings (module), \hyperpage{98}
+  \item mosaic.SingleChannelAnalysis (module), \hyperpage{73}
+  \item mosaic.sqlite3MDIO (module), \hyperpage{98}
+  \item mosaic.tsvTrajIO (module), \hyperpage{89}
+  \item mosaic.utilities.fit\_funcs (module), \hyperpage{101}
+  \item mosaic.utilities.ionic\_current\_stats (module), \hyperpage{99}
+  \item mosaic.utilities.mosaicTiming (module), \hyperpage{100}
+  \item mosaic.utilities.util (module), \hyperpage{100}
+  \item mosaic.waveletDenoiseFilter (module), \hyperpage{90}
+  \item mosaicLog (class in mosaic.utilities.mosaicLog), \hyperpage{100}
+  \item mosaicscripts.plots.contour (module), \hyperpage{103}
+  \item mosaicscripts.plots.histogram (module), \hyperpage{102}
+  \item mosaicscripts.plots.timeseries (module), \hyperpage{102}
+  \item mosaicTiming (class in mosaic.utilities.mosaicTiming), \hyperpage{101}
+
+  \indexspace
+  \bigletter O
+  \item OpenCurrentDist() (in module mosaic.utilities.ionic\_current\_stats), \hyperpage{99}
+  \item openDB() (mosaic.metaMDIO.metaMDIO method), \hyperpage{80}
+
+  \indexspace
+  \bigletter P
+  \item partition() (in module mosaic.utilities.util), \hyperpage{100}
+  \item PartitionEvents() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{76}
+  \item PlotTimeseries() (in module mosaicscripts.plots.timeseries), \hyperpage{102}
+  \item popdata() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{83}
+  \item popfnames() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{84}
+  \item previewdata() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{84}
+  \item PrintCurrentTime() (mosaic.utilities.mosaicTiming.mosaicTiming method), \hyperpage{101}
+  \item PrintStatistics() (mosaic.utilities.mosaicTiming.mosaicTiming method), \hyperpage{101}
+  \item processEvent() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{78}
+
+  \indexspace
+  \bigletter Q
+  \item qdfTrajIO (class in mosaic.qdfTrajIO), \hyperpage{86}
+  \item queryDB() (mosaic.metaMDIO.metaMDIO method), \hyperpage{80}
+
+  \indexspace
+  \bigletter R
+  \item readAnalysisInfo() (mosaic.metaMDIO.metaMDIO method), \hyperpage{80}
+  \item readAnalysisLog() (mosaic.metaMDIO.metaMDIO method), \hyperpage{80}
+  \item readdata() (mosaic.abfTrajIO.abfTrajIO method), \hyperpage{85}
+  \item readdata() (mosaic.binTrajIO.binTrajIO method), \hyperpage{89}
+  \item readdata() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{84}
+  \item readdata() (mosaic.qdfTrajIO.qdfTrajIO method), \hyperpage{87}
+  \item readdata() (mosaic.tsvTrajIO.tsvTrajIO method), \hyperpage{90}
+  \item readSettings() (mosaic.metaMDIO.metaMDIO method), \hyperpage{80}
+  \item rejectEvent() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{78}
+  \item Reset() (mosaic.utilities.mosaicTiming.mosaicTiming method), \hyperpage{101}
+  \item Run() (mosaic.SingleChannelAnalysis.SingleChannelAnalysis method), \hyperpage{74}
+
+  \indexspace
+  \bigletter S
+  \item scaleData() (mosaic.binTrajIO.binTrajIO method), \hyperpage{89}
+  \item scaleData() (mosaic.metaTrajIO.metaTrajIO method), \hyperpage{84}
+  \item sd() (in module mosaic.utilities.util), \hyperpage{100}
+  \item selectS() (in module mosaic.utilities.util), \hyperpage{100}
+  \item settings (class in mosaic.settings), \hyperpage{99}
+  \item SingleChannelAnalysis (class in mosaic.SingleChannelAnalysis), \hyperpage{73}
+  \item sqlite3MDIO (class in mosaic.sqlite3MDIO), \hyperpage{98}
+  \item Stop() (mosaic.metaEventPartition.metaEventPartition method), \hyperpage{76}
+  \item Stop() (mosaic.SingleChannelAnalysis.SingleChannelAnalysis method), \hyperpage{74}
+
+  \indexspace
+  \bigletter T
+  \item time() (mosaic.utilities.mosaicTiming.mosaicTiming method), \hyperpage{101}
+  \item tsvTrajIO (class in mosaic.tsvTrajIO), \hyperpage{89}
+
+  \indexspace
+  \bigletter W
+  \item waveletDenoiseFilter (class in mosaic.waveletDenoiseFilter), \hyperpage{90}
+  \item writeAnalysisInfo() (mosaic.metaMDIO.metaMDIO method), \hyperpage{81}
+  \item writeAnalysisLog() (mosaic.metaMDIO.metaMDIO method), \hyperpage{81}
+  \item writeEvent() (mosaic.metaEventProcessor.metaEventProcessor method), \hyperpage{78}
+  \item writeRecord() (mosaic.metaMDIO.metaMDIO method), \hyperpage{81}
+  \item writeSettings() (mosaic.metaMDIO.metaMDIO method), \hyperpage{81}
+
+\end{theindex}

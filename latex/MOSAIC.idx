@@ -1,0 +1,143 @@
+\indexentry{mosaic.SingleChannelAnalysis (module)|hyperpage}{73}
+\indexentry{SingleChannelAnalysis (class in mosaic.SingleChannelAnalysis)|hyperpage}{73}
+\indexentry{Run() (mosaic.SingleChannelAnalysis.SingleChannelAnalysis method)|hyperpage}{74}
+\indexentry{Stop() (mosaic.SingleChannelAnalysis.SingleChannelAnalysis method)|hyperpage}{74}
+\indexentry{mosaic.ConvertToCSV (module)|hyperpage}{74}
+\indexentry{\_filename() (mosaic.ConvertToCSV.ConvertToCSV method)|hyperpage}{74}
+\indexentry{\_creategenerator() (mosaic.ConvertToCSV.ConvertToCSV method)|hyperpage}{74}
+\indexentry{ConvertToCSV (class in mosaic.ConvertToCSV)|hyperpage}{74}
+\indexentry{Convert() (mosaic.ConvertToCSV.ConvertToCSV method)|hyperpage}{74}
+\indexentry{metaEventPartition (class in mosaic.metaEventPartition)|hyperpage}{75}
+\indexentry{\_init() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{75}
+\indexentry{\_stop() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{75}
+\indexentry{\_eventsegment() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{75}
+\indexentry{PartitionEvents() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{76}
+\indexentry{Stop() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{76}
+\indexentry{formatoutputfiles() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{76}
+\indexentry{formatsettings() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{76}
+\indexentry{formatstats() (mosaic.metaEventPartition.metaEventPartition method)|hyperpage}{76}
+\indexentry{metaEventProcessor (class in mosaic.metaEventProcessor)|hyperpage}{76}
+\indexentry{\_init() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{\_mdHeadingDataType() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{\_mdHeadings() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{\_mdList() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{\_metaEventProcessor\_\_mdformat() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{\_processEvent() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{mdAveragePropertiesList() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{77}
+\indexentry{mdHeadingDataType() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{78}
+\indexentry{mdHeadings() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{78}
+\indexentry{processEvent() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{78}
+\indexentry{rejectEvent() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{78}
+\indexentry{writeEvent() (mosaic.metaEventProcessor.metaEventProcessor method)|hyperpage}{78}
+\indexentry{metaIOFilter (class in mosaic.metaIOFilter)|hyperpage}{78}
+\indexentry{\_init() (mosaic.metaIOFilter.metaIOFilter method)|hyperpage}{78}
+\indexentry{filterData() (mosaic.metaIOFilter.metaIOFilter method)|hyperpage}{78}
+\indexentry{filterFs (mosaic.metaIOFilter.metaIOFilter attribute)|hyperpage}{79}
+\indexentry{filteredData (mosaic.metaIOFilter.metaIOFilter attribute)|hyperpage}{79}
+\indexentry{formatsettings() (mosaic.metaIOFilter.metaIOFilter method)|hyperpage}{79}
+\indexentry{metaMDIO (class in mosaic.metaMDIO)|hyperpage}{79}
+\indexentry{\_opendb() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{79}
+\indexentry{\_initdb() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{79}
+\indexentry{\_colnames() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{79}
+\indexentry{closeDB() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{79}
+\indexentry{initDB() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{79}
+\indexentry{openDB() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{80}
+\indexentry{queryDB() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{80}
+\indexentry{readAnalysisInfo() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{80}
+\indexentry{readAnalysisLog() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{80}
+\indexentry{readSettings() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{80}
+\indexentry{writeAnalysisInfo() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{81}
+\indexentry{writeAnalysisLog() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{81}
+\indexentry{writeRecord() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{81}
+\indexentry{writeSettings() (mosaic.metaMDIO.metaMDIO method)|hyperpage}{81}
+\indexentry{metaTrajIO (class in mosaic.metaTrajIO)|hyperpage}{82}
+\indexentry{\_init() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{82}
+\indexentry{\_formatsettings() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{82}
+\indexentry{DataLengthSec (mosaic.metaTrajIO.metaTrajIO attribute)|hyperpage}{83}
+\indexentry{ElapsedTimeSeconds (mosaic.metaTrajIO.metaTrajIO attribute)|hyperpage}{83}
+\indexentry{FsHz (mosaic.metaTrajIO.metaTrajIO attribute)|hyperpage}{83}
+\indexentry{LastFileProcessed (mosaic.metaTrajIO.metaTrajIO attribute)|hyperpage}{83}
+\indexentry{formatsettings() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{83}
+\indexentry{popdata() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{83}
+\indexentry{popfnames() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{84}
+\indexentry{previewdata() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{84}
+\indexentry{readdata() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{84}
+\indexentry{scaleData() (mosaic.metaTrajIO.metaTrajIO method)|hyperpage}{84}
+\indexentry{mosaic.abfTrajIO (module)|hyperpage}{85}
+\indexentry{abfTrajIO (class in mosaic.abfTrajIO)|hyperpage}{85}
+\indexentry{readdata() (mosaic.abfTrajIO.abfTrajIO method)|hyperpage}{85}
+\indexentry{mosaic.qdfTrajIO (module)|hyperpage}{86}
+\indexentry{qdfTrajIO (class in mosaic.qdfTrajIO)|hyperpage}{86}
+\indexentry{readdata() (mosaic.qdfTrajIO.qdfTrajIO method)|hyperpage}{87}
+\indexentry{mosaic.binTrajIO (module)|hyperpage}{87}
+\indexentry{binTrajIO (class in mosaic.binTrajIO)|hyperpage}{87}
+\indexentry{readdata() (mosaic.binTrajIO.binTrajIO method)|hyperpage}{89}
+\indexentry{scaleData() (mosaic.binTrajIO.binTrajIO method)|hyperpage}{89}
+\indexentry{mosaic.tsvTrajIO (module)|hyperpage}{89}
+\indexentry{tsvTrajIO (class in mosaic.tsvTrajIO)|hyperpage}{89}
+\indexentry{readdata() (mosaic.tsvTrajIO.tsvTrajIO method)|hyperpage}{90}
+\indexentry{mosaic.waveletDenoiseFilter (module)|hyperpage}{90}
+\indexentry{waveletDenoiseFilter (class in mosaic.waveletDenoiseFilter)|hyperpage}{90}
+\indexentry{filterData() (mosaic.waveletDenoiseFilter.waveletDenoiseFilter method)|hyperpage}{91}
+\indexentry{formatsettings() (mosaic.waveletDenoiseFilter.waveletDenoiseFilter method)|hyperpage}{91}
+\indexentry{mosaic.besselLowpassFilter (module)|hyperpage}{91}
+\indexentry{besselLowpassFilter (class in mosaic.besselLowpassFilter)|hyperpage}{91}
+\indexentry{filterData() (mosaic.besselLowpassFilter.besselLowpassFilter method)|hyperpage}{91}
+\indexentry{formatsettings() (mosaic.besselLowpassFilter.besselLowpassFilter method)|hyperpage}{91}
+\indexentry{mosaic.convolutionFilter (module)|hyperpage}{92}
+\indexentry{convolutionFilter (class in mosaic.convolutionFilter)|hyperpage}{92}
+\indexentry{filterData() (mosaic.convolutionFilter.convolutionFilter method)|hyperpage}{92}
+\indexentry{formatsettings() (mosaic.convolutionFilter.convolutionFilter method)|hyperpage}{92}
+\indexentry{mosaic.eventSegment (module)|hyperpage}{92}
+\indexentry{eventSegment (class in mosaic.eventSegment)|hyperpage}{93}
+\indexentry{formatsettings() (mosaic.eventSegment.eventSegment method)|hyperpage}{93}
+\indexentry{formatstats() (mosaic.eventSegment.eventSegment method)|hyperpage}{93}
+\indexentry{mosaic.adept2State (module)|hyperpage}{94}
+\indexentry{adept2State (class in mosaic.adept2State)|hyperpage}{94}
+\indexentry{formatsettings() (mosaic.adept2State.adept2State method)|hyperpage}{95}
+\indexentry{mdAveragePropertiesList() (mosaic.adept2State.adept2State method)|hyperpage}{95}
+\indexentry{datblock (class in mosaic.adept2State)|hyperpage}{95}
+\indexentry{mosaic.adept (module)|hyperpage}{95}
+\indexentry{adept (class in mosaic.adept)|hyperpage}{96}
+\indexentry{formatsettings() (mosaic.adept.adept method)|hyperpage}{96}
+\indexentry{mdAveragePropertiesList() (mosaic.adept.adept method)|hyperpage}{96}
+\indexentry{mosaic.cusumPlus (module)|hyperpage}{96}
+\indexentry{cusumPlus (class in mosaic.cusumPlus)|hyperpage}{97}
+\indexentry{formatsettings() (mosaic.cusumPlus.cusumPlus method)|hyperpage}{97}
+\indexentry{mdAveragePropertiesList() (mosaic.cusumPlus.cusumPlus method)|hyperpage}{98}
+\indexentry{datblock (class in mosaic.cusumPlus)|hyperpage}{98}
+\indexentry{mosaic.sqlite3MDIO (module)|hyperpage}{98}
+\indexentry{data\_record (class in mosaic.sqlite3MDIO)|hyperpage}{98}
+\indexentry{sqlite3MDIO (class in mosaic.sqlite3MDIO)|hyperpage}{98}
+\indexentry{exportToCSV() (mosaic.sqlite3MDIO.sqlite3MDIO method)|hyperpage}{98}
+\indexentry{mosaic.settings (module)|hyperpage}{98}
+\indexentry{settings (class in mosaic.settings)|hyperpage}{99}
+\indexentry{getSettings() (mosaic.settings.settings method)|hyperpage}{99}
+\indexentry{mosaic.utilities.ionic\_current\_stats (module)|hyperpage}{99}
+\indexentry{OpenCurrentDist() (in module mosaic.utilities.ionic\_current\_stats)|hyperpage}{99}
+\indexentry{mosaic.utilities.util (module)|hyperpage}{100}
+\indexentry{avg() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{commonest() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{decimate() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{filter() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{flat2() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{partition() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{sd() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{selectS() (in module mosaic.utilities.util)|hyperpage}{100}
+\indexentry{mosaicLog (class in mosaic.utilities.mosaicLog)|hyperpage}{100}
+\indexentry{addLogHeader() (mosaic.utilities.mosaicLog.mosaicLog method)|hyperpage}{100}
+\indexentry{addLogText() (mosaic.utilities.mosaicLog.mosaicLog method)|hyperpage}{100}
+\indexentry{mosaic.utilities.mosaicTiming (module)|hyperpage}{100}
+\indexentry{mosaicTiming (class in mosaic.utilities.mosaicTiming)|hyperpage}{101}
+\indexentry{FunctionTiming() (mosaic.utilities.mosaicTiming.mosaicTiming method)|hyperpage}{101}
+\indexentry{PrintCurrentTime() (mosaic.utilities.mosaicTiming.mosaicTiming method)|hyperpage}{101}
+\indexentry{PrintStatistics() (mosaic.utilities.mosaicTiming.mosaicTiming method)|hyperpage}{101}
+\indexentry{Reset() (mosaic.utilities.mosaicTiming.mosaicTiming method)|hyperpage}{101}
+\indexentry{time() (mosaic.utilities.mosaicTiming.mosaicTiming method)|hyperpage}{101}
+\indexentry{mosaic.utilities.fit\_funcs (module)|hyperpage}{101}
+\indexentry{mosaicscripts.plots.timeseries (module)|hyperpage}{102}
+\indexentry{PlotTimeseries() (in module mosaicscripts.plots.timeseries)|hyperpage}{102}
+\indexentry{mosaicscripts.plots.histogram (module)|hyperpage}{102}
+\indexentry{histogram\_plot() (in module mosaicscripts.plots.histogram)|hyperpage}{103}
+\indexentry{mosaicscripts.plots.contour (module)|hyperpage}{103}
+\indexentry{contour\_plot() (in module mosaicscripts.plots.contour)|hyperpage}{104}

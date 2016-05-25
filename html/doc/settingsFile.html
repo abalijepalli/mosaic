@@ -5,18 +5,18 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>6. Settings File &mdash; MOSAIC 1.3 documentation</title>
+    <title>5. Settings File &mdash; MOSAIC 1.3b2 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/bootswatch-3.2.0/paper/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.3.4/paper/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="../_static/style.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     '1.3',
+        VERSION:     '1.3b2',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -28,12 +28,12 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-    <link rel="top" title="MOSAIC 1.3 documentation" href="../index.html" />
-    <link rel="next" title="7. Database Structure and Query Syntax" href="DatabaseStructure.html" />
-    <link rel="prev" title="5. Scripting and Advanced Features" href="ScriptingandAdvancedFeatures.html" />
+    <link rel="top" title="MOSAIC 1.3b2 documentation" href="../index.html" />
+    <link rel="next" title="6. Database Structure and Query Syntax" href="DatabaseStructure.html" />
+    <link rel="prev" title="4. MOSAIC GUI" href="GraphicalInterface.html" />
 
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -60,7 +60,7 @@
         </button>
         <a class="navbar-brand" href="../index.html"><img src="../_static/icon_36.png">
            </a>
-        <span class="navbar-text navbar-version pull-left"><b>1.3</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>1.3b2</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -82,18 +82,19 @@
       role="menu"
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="Introduction.html">1. Introduction</a></li>
-<li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">2. Getting Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Algorithms.html">3. Data Processing Algorithms in <em>MOSAIC</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="Algorithms.html">2. Data Processing Algorithms in <em>MOSAIC</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="GettingStarted.html">3. Getting Started</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GraphicalInterface.html">4. <em>MOSAIC</em> GUI</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ScriptingandAdvancedFeatures.html">5. Scripting and Advanced Features</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">6. Settings File</a></li>
-<li class="toctree-l1"><a class="reference internal" href="DatabaseStructure.html">7. Database Structure and Query Syntax</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">5. Settings File</a></li>
+<li class="toctree-l1"><a class="reference internal" href="DatabaseStructure.html">6. Database Structure and Query Syntax</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ScriptingandAdvancedFeatures.html">7. Scripting and Advanced Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Extend.html">8. Extend <em>MOSAIC</em></a></li>
-<li class="toctree-l1"><a class="reference internal" href="Addons.html">9. Addons</a></li>
-<li class="toctree-l1"><a class="reference internal" href="examples.html">10. Examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="apidocs.html">11. API Documentation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ChangeLog.html">12. Change Log</a></li>
-<li class="toctree-l1"><a class="reference internal" href="References.html">13. Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="PublicationFigures.html">9. Publication Quality Figures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AdvancedAnalysis.html">10. Advanced Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Addons.html">11. Addons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="apidocs.html">12. API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ChangeLog.html">13. Change Log</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">14. Bibliography</a></li>
 </ul>
 </ul>
 </li>
@@ -123,13 +124,13 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 content">
       
   <div class="section" id="settings-file">
-<span id="settings-page"></span><h1>6. Settings File<a class="headerlink" href="#settings-file" title="Permalink to this headline">¶</a></h1>
+<span id="settings-page"></span><h1>5. Settings File<a class="headerlink" href="#settings-file" title="Permalink to this headline">¶</a></h1>
 <p><em>MOSAIC</em> stores its settings in the <a class="reference external" href="http://json.org/">JSON</a> format. When using the graphical interface, a settings file is generated automatically upon starting an analysis, or by clicking <em>Save Settings</em> in the <em>File menu</em>  (see <a class="reference internal" href="GraphicalInterface.html#gui-page"><span>MOSAIC GUI</span></a>).</p>
 <div class="section" id="settings-layout">
-<h2>6.1. Settings Layout<a class="headerlink" href="#settings-layout" title="Permalink to this headline">¶</a></h2>
+<h2>5.1. Settings Layout<a class="headerlink" href="#settings-layout" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://json.org/">JSON</a> is a human readable file format that consists of key-value pairs separated by sections. Each section in a JSON object consists of a section name and a list of string key-value pairs.</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
         <span class="s2">&quot;&lt;section name&gt;&quot;</span> <span class="o">:</span> <span class="p">{</span>
@@ -141,9 +142,9 @@
 <span class="p">}</span>
 </pre></div>
 </div>
-<p><em>MOSAIC</em> settings define a new section for each class, with key-value pairs corresponding to class attributes that are set upon initialization. This is illustrated below for the stepResponseAnalysis class. The <em>stepResponseAnalysis</em> section in the settings file holds parameters corresponding to the <a class="reference internal" href="../api-doc/mosaic.processing.html#module-mosaic.stepResponseAnalysis" title="mosaic.stepResponseAnalysis"><code class="xref py py-class docutils literal"><span class="pre">stepResponseAnalysis</span></code></a> class. Note that that the section name in the settings file is identical to the corresponding class name. Three parameters are then defined within the section that control the behavior of the class.</p>
+<p><em>MOSAIC</em> settings define a new section for each class, with key-value pairs corresponding to class attributes that are set upon initialization. This is illustrated below for the adept2State class. The <em>adept2State</em> section in the settings file holds parameters corresponding to the <a class="reference internal" href="../api-doc/mosaic.processing.html#module-mosaic.adept2State" title="mosaic.adept2State"><code class="xref py py-class docutils literal"><span class="pre">adept2State</span></code></a> class. Note that that the section name in the settings file is identical to the corresponding class name. Three parameters are then defined within the section that control the behavior of the class.</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
-        <span class="s2">&quot;stepResponseAnalysis&quot;</span> <span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;adept2State&quot;</span> <span class="o">:</span> <span class="p">{</span>
                 <span class="s2">&quot;FitTol&quot;</span>                        <span class="o">:</span> <span class="s2">&quot;1.e-7&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;FitIters&quot;</span>                      <span class="o">:</span> <span class="s2">&quot;50000&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;BlockRejectRatio&quot;</span>              <span class="o">:</span> <span class="s2">&quot;0.9&quot;</span>
@@ -151,12 +152,12 @@
 <span class="p">}</span>
 </pre></div>
 </div>
-<p>Finally, <a class="reference internal" href="../api-doc/mosaic.processing.html#module-mosaic.stepResponseAnalysis" title="mosaic.stepResponseAnalysis"><code class="xref py py-class docutils literal"><span class="pre">stepResponseAnalysis</span></code></a> is initialized by defining class attributes corresponding to the key-value pairs in the settings file.</p>
+<p>Finally, <a class="reference internal" href="../api-doc/mosaic.processing.html#module-mosaic.adept2State" title="mosaic.adept2State"><code class="xref py py-class docutils literal"><span class="pre">adept2State</span></code></a> is initialized by defining class attributes corresponding to the key-value pairs in the settings file.</p>
 <div class="highlight-python"><div class="highlight"><pre><span class="k">try</span><span class="p">:</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">FitTol</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;FitTol&quot;</span><span class="p">,</span> <span class="mf">1.e-7</span><span class="p">))</span>
-                <span class="bp">self</span><span class="o">.</span><span class="n">FitIters</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;FitIters&quot;</span><span class="p">,</span> <span class="mi">5000</span><span class="p">))</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">FitTol</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;FitTol&quot;</span><span class="p">,</span> <span class="mf">1.e-7</span><span class="p">))</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">FitIters</span><span class="o">=</span><span class="nb">int</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;FitIters&quot;</span><span class="p">,</span> <span class="mi">5000</span><span class="p">))</span>
 
-                <span class="bp">self</span><span class="o">.</span><span class="n">BlockRejectRatio</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&quot;BlockRejectRatio&quot;</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">))</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">BlockRejectRatio</span><span class="o">=</span><span class="nb">float</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">settingsDict</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s2">&quot;BlockRejectRatio&quot;</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">))</span>
 
 <span class="k">except</span> <span class="ne">ValueError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
         <span class="k">raise</span> <span class="n">commonExceptions</span><span class="o">.</span><span class="n">SettingsTypeError</span><span class="p">(</span> <span class="n">err</span> <span class="p">)</span>
@@ -164,9 +165,9 @@
 </div>
 </div>
 <div class="section" id="trajectory-settings">
-<h2>6.2. Trajectory Settings<a class="headerlink" href="#trajectory-settings" title="Permalink to this headline">¶</a></h2>
+<h2>5.2. Trajectory Settings<a class="headerlink" href="#trajectory-settings" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="common-settings-metatrajio">
-<h3>6.2.1. Common Settings (<a class="reference internal" href="../api-doc/mosaic.meta.html#mosaic.metaTrajIO.metaTrajIO" title="mosaic.metaTrajIO.metaTrajIO"><code class="xref py py-class docutils literal"><span class="pre">metaTrajIO</span></code></a>)<a class="headerlink" href="#common-settings-metatrajio" title="Permalink to this headline">¶</a></h3>
+<h3>5.2.1. Common Settings (<a class="reference internal" href="../api-doc/mosaic.meta.html#mosaic.metaTrajIO.metaTrajIO" title="mosaic.metaTrajIO.metaTrajIO"><code class="xref py py-class docutils literal"><span class="pre">metaTrajIO</span></code></a>)<a class="headerlink" href="#common-settings-metatrajio" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><div class="admonition warning">
 <p class="first admonition-title">Warning</p>
@@ -214,7 +215,7 @@ the feedback resistance (Rfb) and feedback capacitance (Cfb) to be passed at ini
 </div></blockquote>
 </div>
 <div class="section" id="qdf-files-qdftrajio">
-<h3>6.2.2. QDF Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.qdfTrajIO.qdfTrajIO" title="mosaic.qdfTrajIO.qdfTrajIO"><code class="xref py py-class docutils literal"><span class="pre">qdfTrajIO</span></code></a>)<a class="headerlink" href="#qdf-files-qdftrajio" title="Permalink to this headline">¶</a></h3>
+<h3>5.2.2. QDF Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.qdfTrajIO.qdfTrajIO" title="mosaic.qdfTrajIO.qdfTrajIO"><code class="xref py py-class docutils literal"><span class="pre">qdfTrajIO</span></code></a>)<a class="headerlink" href="#qdf-files-qdftrajio" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Use the readqdf module from EBS to read individual QDF files.</p>
 <p>In addition to <a class="reference internal" href="../api-doc/mosaic.meta.html#mosaic.metaTrajIO.metaTrajIO" title="mosaic.metaTrajIO.metaTrajIO"><code class="xref py py-class docutils literal"><span class="pre">metaTrajIO</span></code></a> args, check if the
@@ -259,7 +260,7 @@ the values for <code class="docutils literal"><span class="pre">Rfb</span></code
 </div></blockquote>
 </div>
 <div class="section" id="abf-files-abftrajio">
-<h3>6.2.3. ABF Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.abfTrajIO.abfTrajIO" title="mosaic.abfTrajIO.abfTrajIO"><code class="xref py py-class docutils literal"><span class="pre">abfTrajIO</span></code></a>)<a class="headerlink" href="#abf-files-abftrajio" title="Permalink to this headline">¶</a></h3>
+<h3>5.2.3. ABF Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.abfTrajIO.abfTrajIO" title="mosaic.abfTrajIO.abfTrajIO"><code class="xref py py-class docutils literal"><span class="pre">abfTrajIO</span></code></a>)<a class="headerlink" href="#abf-files-abftrajio" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Read ABF1 and ABF2 file formats. Currently, only
 gap-free mode and single channel recordings are supported.</p>
@@ -287,7 +288,7 @@ gap-free mode and single channel recordings are supported.</p>
 </div></blockquote>
 </div>
 <div class="section" id="binary-files-bintrajio">
-<h3>6.2.4. Binary Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.binTrajIO.binTrajIO" title="mosaic.binTrajIO.binTrajIO"><code class="xref py py-class docutils literal"><span class="pre">binTrajIO</span></code></a>)<a class="headerlink" href="#binary-files-bintrajio" title="Permalink to this headline">¶</a></h3>
+<h3>5.2.4. Binary Files (<a class="reference internal" href="../api-doc/mosaic.traj.html#mosaic.binTrajIO.binTrajIO" title="mosaic.binTrajIO.binTrajIO"><code class="xref py py-class docutils literal"><span class="pre">binTrajIO</span></code></a>)<a class="headerlink" href="#binary-files-bintrajio" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Read a file that contains interleaved binary data, ordered by column. Only a single
 column that holds ionic current data is read. The current in pA
@@ -396,10 +397,10 @@ defined above is:</p>
 </div>
 </div>
 <div class="section" id="optimizing-settings">
-<span id="algorithm-settings-sec"></span><h2>6.3. Optimizing Settings<a class="headerlink" href="#optimizing-settings" title="Permalink to this headline">¶</a></h2>
+<span id="algorithm-settings-sec"></span><h2>5.3. Optimizing Settings<a class="headerlink" href="#optimizing-settings" title="Permalink to this headline">¶</a></h2>
 <p><em>MOSAIC</em> classes are controlled through the <a class="reference external" href="http://json.org/">JSON</a> settings files as defined above. In most cases, running <em>MOSAIC</em> through the GUI (see <a class="reference internal" href="GraphicalInterface.html#gui-page"><span>MOSAIC GUI</span></a>) should generate satisfactory results. However, settings can be further optimized either by editing a file named <code class="docutils literal"><span class="pre">.settings</span></code> stored within the data directory, or by clicking on the <code class="docutils literal"><span class="pre">Advanced</span> <span class="pre">Settings</span></code> check-box in the <a class="reference internal" href="GraphicalInterface.html#analysis-setup"><span>Panel A: Analysis Setup</span></a> section of the GUI.</p>
 <div class="section" id="initial-event-detection-eventsegment">
-<span id="eventseg-settings-sec"></span><h3>6.3.1. Initial Event Detection (<a class="reference internal" href="eventSegment.html#mosaic.eventSegment.eventSegment" title="mosaic.eventSegment.eventSegment"><code class="xref py py-class docutils literal"><span class="pre">eventSegment</span></code></a>)<a class="headerlink" href="#initial-event-detection-eventsegment" title="Permalink to this headline">¶</a></h3>
+<span id="eventseg-settings-sec"></span><h3>5.3.1. Initial Event Detection (<a class="reference internal" href="eventSegment.html#mosaic.eventSegment.eventSegment" title="mosaic.eventSegment.eventSegment"><code class="xref py py-class docutils literal"><span class="pre">eventSegment</span></code></a>)<a class="headerlink" href="#initial-event-detection-eventsegment" title="Permalink to this headline">¶</a></h3>
 <p>The first step when analyzing an ionic-current time series is to perform a quick partition to identify events. This is accomplished by overriding the <code class="xref py py-class docutils literal"><span class="pre">eventPartition</span></code> class. Currently, the only implementation of event partitioning is the <a class="reference internal" href="eventSegment.html#mosaic.eventSegment.eventSegment" title="mosaic.eventSegment.eventSegment"><code class="xref py py-class docutils literal"><span class="pre">eventSegment</span></code></a> algorithm. This algorithm uses a thresholding technique to detect the start and end of an event. When an event is detected the ionic current time-series associated with that event is passed to a processing algorithm for fitting. Settings that can be passed to <a class="reference internal" href="eventSegment.html#mosaic.eventSegment.eventSegment" title="mosaic.eventSegment.eventSegment"><code class="xref py py-class docutils literal"><span class="pre">eventSegment</span></code></a> are given below followed by their descriptions.</p>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="s2">&quot;eventSegment&quot;</span> <span class="o">:</span> <span class="p">{</span>
         <span class="s2">&quot;blockSizeSec&quot;</span>                  <span class="o">:</span> <span class="s2">&quot;0.5&quot;</span><span class="p">,</span>
@@ -458,20 +459,20 @@ defined above is:</p>
 </tbody>
 </table>
 </div>
-<div class="section" id="two-state-identification-stepresponseanalysis">
-<span id="stepresp-settings-sec"></span><h3>6.3.2. Two-State Identification  (<a class="reference internal" href="../api-doc/mosaic.processing.html#mosaic.stepResponseAnalysis.stepResponseAnalysis" title="mosaic.stepResponseAnalysis.stepResponseAnalysis"><code class="xref py py-class docutils literal"><span class="pre">stepResponseAnalysis</span></code></a>)<a class="headerlink" href="#two-state-identification-stepresponseanalysis" title="Permalink to this headline">¶</a></h3>
-<p>Once the time-series is partitioned, individual events are processed by a processing algorithm. For simple event patterns (e.g. homopolymers of DNA, PEG, etc.), one can use the <a class="reference internal" href="stepResponse.html#stepresponse-page"><span>Step Response Analysis</span></a> algorithm. Settings that can be passed to this algorithm are below, followed by their descriptions. For a vast majority of cases, the settings below can be used without modification.</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span class="s2">&quot;stepResponseAnalysis&quot;</span> <span class="o">:</span> <span class="p">{</span>
+<div class="section" id="two-state-identification-adept2state">
+<span id="stepresp-settings-sec"></span><h3>5.3.2. Two-State Identification  (<a class="reference internal" href="../api-doc/mosaic.processing.html#mosaic.adept2State.adept2State" title="mosaic.adept2State.adept2State"><code class="xref py py-class docutils literal"><span class="pre">adept2State</span></code></a>)<a class="headerlink" href="#two-state-identification-adept2state" title="Permalink to this headline">¶</a></h3>
+<p>Once the time-series is partitioned, individual events are processed by a processing algorithm. For simple event patterns (e.g. homopolymers of DNA, PEG, etc.), one can use the <a class="reference internal" href="stepResponse.html#stepresponse-page"><span>ADEPT 2-State</span></a> algorithm. Settings that can be passed to this algorithm are below, followed by their descriptions. For a vast majority of cases, the settings below can be used without modification.</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="s2">&quot;adept2State&quot;</span> <span class="o">:</span> <span class="p">{</span>
         <span class="s2">&quot;FitTol&quot;</span>                        <span class="o">:</span> <span class="s2">&quot;1.e-7&quot;</span><span class="p">,</span>
         <span class="s2">&quot;FitIters&quot;</span>                      <span class="o">:</span> <span class="s2">&quot;50000&quot;</span>
 <span class="p">}</span>
 </pre></div>
 </div>
 </div>
-<div class="section" id="multi-state-identification-multistateanalysis">
-<h3>6.3.3. Multi-State Identification  (<a class="reference internal" href="../api-doc/mosaic.processing.html#mosaic.multiStateAnalysis.multiStateAnalysis" title="mosaic.multiStateAnalysis.multiStateAnalysis"><code class="xref py py-class docutils literal"><span class="pre">multiStateAnalysis</span></code></a>)<a class="headerlink" href="#multi-state-identification-multistateanalysis" title="Permalink to this headline">¶</a></h3>
-<p>For more complex signals with multiple states, the <a class="reference internal" href="multiState.html#multistate-page"><span>Multi-state Analysis</span></a> algorithm yields better results. The settings passed to this algorithm (described below) are largely similar to <a class="reference internal" href="#stepresp-settings-sec"><span>Two-State Identification  (stepResponseAnalysis)</span></a>.</p>
-<div class="highlight-javascript"><div class="highlight"><pre><span class="s2">&quot;multiStateAnalysis&quot;</span> <span class="o">:</span> <span class="p">{</span>
+<div class="section" id="multi-state-identification-adept">
+<h3>5.3.3. Multi-State Identification  (<a class="reference internal" href="../api-doc/mosaic.processing.html#mosaic.adept.adept" title="mosaic.adept.adept"><code class="xref py py-class docutils literal"><span class="pre">adept</span></code></a>)<a class="headerlink" href="#multi-state-identification-adept" title="Permalink to this headline">¶</a></h3>
+<p>For more complex signals with multiple states, the <a class="reference internal" href="multiState.html#multistate-page"><span>ADEPT</span></a> algorithm yields better results. The settings passed to this algorithm (described below) are largely similar to <a class="reference internal" href="#stepresp-settings-sec"><span>Two-State Identification  (adept2State)</span></a>.</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span class="s2">&quot;adept&quot;</span> <span class="o">:</span> <span class="p">{</span>
         <span class="s2">&quot;FitTol&quot;</span>                        <span class="o">:</span> <span class="s2">&quot;1.e-7&quot;</span><span class="p">,</span>
         <span class="s2">&quot;FitIters&quot;</span>                      <span class="o">:</span> <span class="s2">&quot;50000&quot;</span><span class="p">,</span>
 <span class="hll">        <span class="s2">&quot;InitThreshold&quot;</span>                 <span class="o">:</span> <span class="s2">&quot;3.0&quot;</span>
@@ -485,7 +486,7 @@ defined above is:</p>
 </div>
 </div>
 <div class="section" id="default-settings">
-<h2>6.4. Default Settings<a class="headerlink" href="#default-settings" title="Permalink to this headline">¶</a></h2>
+<h2>5.4. Default Settings<a class="headerlink" href="#default-settings" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-javascript"><div class="highlight"><pre><span class="p">{</span>
         <span class="s2">&quot;eventSegment&quot;</span> <span class="o">:</span> <span class="p">{</span>
                 <span class="s2">&quot;blockSizeSec&quot;</span>                  <span class="o">:</span> <span class="s2">&quot;0.5&quot;</span><span class="p">,</span>
@@ -509,16 +510,16 @@ defined above is:</p>
                 <span class="s2">&quot;minEvntTime&quot;</span>                   <span class="o">:</span> <span class="s2">&quot;10.e-6&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;minDataPad&quot;</span>                    <span class="o">:</span> <span class="s2">&quot;75&quot;</span>
         <span class="p">},</span>
-        <span class="s2">&quot;stepResponseAnalysis&quot;</span> <span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;adept2State&quot;</span> <span class="o">:</span> <span class="p">{</span>
                 <span class="s2">&quot;FitTol&quot;</span>                                <span class="o">:</span> <span class="s2">&quot;1.e-7&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;FitIters&quot;</span>                              <span class="o">:</span> <span class="s2">&quot;50000&quot;</span>
         <span class="p">},</span>
-        <span class="s2">&quot;multiStateAnalysis&quot;</span> <span class="o">:</span> <span class="p">{</span>
+        <span class="s2">&quot;adept&quot;</span> <span class="o">:</span> <span class="p">{</span>
                 <span class="s2">&quot;FitTol&quot;</span>                <span class="o">:</span> <span class="s2">&quot;1.e-7&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;FitIters&quot;</span>              <span class="o">:</span> <span class="s2">&quot;50000&quot;</span><span class="p">,</span>
                 <span class="s2">&quot;InitThreshold&quot;</span> <span class="o">:</span> <span class="s2">&quot;3.0&quot;</span>
      <span class="p">},</span>
-     <span class="s2">&quot;cusumLevelAnalysis&quot;</span><span class="o">:</span> <span class="p">{</span>
+     <span class="s2">&quot;cusumPlus&quot;</span><span class="o">:</span> <span class="p">{</span>
                         <span class="s2">&quot;StepSize&quot;</span>              <span class="o">:</span> <span class="mf">3.0</span><span class="p">,</span>
                         <span class="s2">&quot;Threshold&quot;</span>             <span class="o">:</span> <span class="mf">3.0</span>
 <span class="p">},</span>
@@ -575,23 +576,21 @@ defined above is:</p>
       
     </p>
     <p>
-      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.3.1.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.5.<br/>
     </p>
   </div>
 </footer> -->
 <div class="footer" style="vertical-align: center" align="center">
-		<table width="75%" style="vertical-align: center; border-collapse: collapse;">
-			<tr style="padding-bottom: 100px;">
-				<td align="center">
-					<a href="Developers.html" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">MOSAIC Developers</a>
-					<a href="http://www.nist.gov/cgi-bin/wwwph/cso.nist.gov?Query=Arvind+Balijepalli" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">Contact</a>
-					<a href="Disclaimer.html" style="color: #696969; padding-left: 50px; padding-right: 50px; text-decoration: none;">Terms of Use</a>
+		<table width="95%" style="vertical-align: center">
+			<col width=60%>
+			<col width=40%>
+			<tr>
+				<td align="left">
+					<a href="Developers.html"><em>MOSAIC Developers</em></a>&nbsp;&nbsp;&nbsp;
+					<a href="http://www.nist.gov/pml/div683/grp06/abalijepalli.cfm"><em>Contact</em></a>&nbsp;&nbsp;&nbsp;
+					<a href="Disclaimer.html"><em>Terms of Use</em></a>
 				</td>
-			</tr>
-			<tr style="padding-bottom: 100px;">
-				<td align="center">
-					<a href="http://www.nist.gov/"style="color: #696969; text-decoration: none;"><small>National Institute of Standards and Technology</small></a>
-				</td>
+				<td align="right"><em>National Institute of Standards and Technology (NIST)</em></td>
 			</tr>
 		</table>
 </div>
