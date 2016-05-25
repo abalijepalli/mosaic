@@ -77,43 +77,43 @@
 \contentsline {chapter}{\numberline {12}API Documentation}{73}{chapter.12}
 \contentsline {section}{\numberline {12.1}\emph {MOSAIC} Modules}{73}{section.12.1}
 \contentsline {subsection}{\numberline {12.1.1}Top-Level Interfaces}{73}{subsection.12.1.1}
-\contentsline {subsubsection}{mosaic.SingleChannelAnalysis module}{73}{subsubsection*.12}
-\contentsline {subsubsection}{mosaic.ConvertToCSV module}{74}{subsubsection*.16}
+\contentsline {subsubsection}{mosaic.SingleChannelAnalysis module}{73}{subsubsection*.11}
+\contentsline {subsubsection}{mosaic.ConvertToCSV module}{74}{subsubsection*.15}
 \contentsline {subsection}{\numberline {12.1.2}Meta-Classes}{74}{subsection.12.1.2}
-\contentsline {subsubsection}{mosaic.metaEventPartition module}{75}{subsubsection*.21}
-\contentsline {subsubsection}{mosaic.metaEventProcessor module}{76}{subsubsection*.31}
-\contentsline {subsubsection}{mosaic.metaIOFilter module}{78}{subsubsection*.45}
-\contentsline {subsubsection}{mosaic.metaMDIO module}{79}{subsubsection*.52}
-\contentsline {subsubsection}{mosaic.metaTrajIO module}{82}{subsubsection*.68}
+\contentsline {subsubsection}{mosaic.metaEventPartition module}{75}{subsubsection*.20}
+\contentsline {subsubsection}{mosaic.metaEventProcessor module}{76}{subsubsection*.30}
+\contentsline {subsubsection}{mosaic.metaIOFilter module}{78}{subsubsection*.44}
+\contentsline {subsubsection}{mosaic.metaMDIO module}{79}{subsubsection*.51}
+\contentsline {subsubsection}{mosaic.metaTrajIO module}{82}{subsubsection*.67}
 \contentsline {subsection}{\numberline {12.1.3}Time-Series IO}{85}{subsection.12.1.3}
-\contentsline {subsubsection}{mosaic.abfTrajIO module}{85}{subsubsection*.82}
-\contentsline {subsubsection}{mosaic.qdfTrajIO module}{86}{subsubsection*.86}
-\contentsline {subsubsection}{mosaic.binTrajIO module}{87}{subsubsection*.90}
-\contentsline {subsubsection}{mosaic.tsvTrajIO module}{89}{subsubsection*.95}
+\contentsline {subsubsection}{mosaic.abfTrajIO module}{85}{subsubsection*.81}
+\contentsline {subsubsection}{mosaic.qdfTrajIO module}{86}{subsubsection*.85}
+\contentsline {subsubsection}{mosaic.binTrajIO module}{87}{subsubsection*.89}
+\contentsline {subsubsection}{mosaic.tsvTrajIO module}{89}{subsubsection*.94}
 \contentsline {subsection}{\numberline {12.1.4}Time-Series Filters}{90}{subsection.12.1.4}
-\contentsline {subsubsection}{mosaic.waveletDenoiseFilter module}{90}{subsubsection*.99}
-\contentsline {subsubsection}{mosaic.besselLowpassFilter module}{91}{subsubsection*.104}
-\contentsline {subsubsection}{mosaic.convolutionFilter module}{92}{subsubsection*.109}
+\contentsline {subsubsection}{mosaic.waveletDenoiseFilter module}{90}{subsubsection*.98}
+\contentsline {subsubsection}{mosaic.besselLowpassFilter module}{91}{subsubsection*.103}
+\contentsline {subsubsection}{mosaic.convolutionFilter module}{92}{subsubsection*.108}
 \contentsline {subsection}{\numberline {12.1.5}Event Partition and Segment}{92}{subsection.12.1.5}
-\contentsline {subsubsection}{mosaic.eventSegment module}{92}{subsubsection*.114}
+\contentsline {subsubsection}{mosaic.eventSegment module}{92}{subsubsection*.113}
 \contentsline {subsection}{\numberline {12.1.6}Event Processing}{94}{subsection.12.1.6}
-\contentsline {subsubsection}{mosaic.adept2State module}{94}{subsubsection*.119}
-\contentsline {subsubsection}{mosaic.adept module}{95}{subsubsection*.125}
-\contentsline {subsubsection}{mosaic.cusumPlus module}{96}{subsubsection*.130}
+\contentsline {subsubsection}{mosaic.adept2State module}{94}{subsubsection*.118}
+\contentsline {subsubsection}{mosaic.adept module}{95}{subsubsection*.124}
+\contentsline {subsubsection}{mosaic.cusumPlus module}{96}{subsubsection*.129}
 \contentsline {subsection}{\numberline {12.1.7}Data Output}{98}{subsection.12.1.7}
-\contentsline {subsubsection}{mosaic.sqlite3MDIO module}{98}{subsubsection*.136}
+\contentsline {subsubsection}{mosaic.sqlite3MDIO module}{98}{subsubsection*.135}
 \contentsline {subsection}{\numberline {12.1.8}Miscellaneous}{98}{subsection.12.1.8}
-\contentsline {subsubsection}{mosaic.settings module}{98}{subsubsection*.141}
-\contentsline {subsubsection}{mosaic.utilities.ionic\_current\_stats module}{99}{subsubsection*.144}
-\contentsline {subsubsection}{mosaic.utilities.util module}{100}{subsubsection*.147}
-\contentsline {subsubsection}{mosaic.utilities.mosaicLog module}{100}{subsubsection*.157}
-\contentsline {subsubsection}{mosaic.utilities.mosaicTiming module}{100}{subsubsection*.161}
-\contentsline {subsubsection}{mosaic.utilities.fit\_funcs module}{101}{subsubsection*.169}
+\contentsline {subsubsection}{mosaic.settings module}{98}{subsubsection*.140}
+\contentsline {subsubsection}{mosaic.utilities.ionic\_current\_stats module}{99}{subsubsection*.143}
+\contentsline {subsubsection}{mosaic.utilities.util module}{100}{subsubsection*.146}
+\contentsline {subsubsection}{mosaic.utilities.mosaicLog module}{100}{subsubsection*.156}
+\contentsline {subsubsection}{mosaic.utilities.mosaicTiming module}{100}{subsubsection*.160}
+\contentsline {subsubsection}{mosaic.utilities.fit\_funcs module}{101}{subsubsection*.168}
 \contentsline {subsection}{\numberline {12.1.9}MOSAIC Script Repository}{102}{subsection.12.1.9}
-\contentsline {subsubsection}{mosaicscripts.plots.timeseries module}{102}{subsubsection*.171}
-\contentsline {subsubsection}{mosaicscripts.plots.histogram module}{102}{subsubsection*.173}
-\contentsline {subsubsection}{mosaicscripts.plots.contour module}{103}{subsubsection*.175}
+\contentsline {subsubsection}{mosaicscripts.plots.timeseries module}{102}{subsubsection*.170}
+\contentsline {subsubsection}{mosaicscripts.plots.histogram module}{102}{subsubsection*.172}
+\contentsline {subsubsection}{mosaicscripts.plots.contour module}{103}{subsubsection*.174}
 \contentsline {chapter}{\numberline {13}Change Log}{105}{chapter.13}
-\contentsline {chapter}{Bibliography}{109}{chapter*.178}
-\contentsline {chapter}{Python Module Index}{111}{section*.188}
-\contentsline {chapter}{Index}{113}{section*.189}
+\contentsline {chapter}{Bibliography}{109}{chapter*.177}
+\contentsline {chapter}{Python Module Index}{111}{section*.181}
+\contentsline {chapter}{Index}{113}{section*.182}

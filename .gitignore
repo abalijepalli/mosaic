@@ -29,3 +29,7 @@ pypidownloads.py
 bin/test.py
 data/MOSAICReferenceData.zip
 data/SingleChan-0001_1.bin
+CaptureRate.rst 
+ContourPlots.rst 
+HistogramPlots.rst 
+TimeseriesPlots.rst
